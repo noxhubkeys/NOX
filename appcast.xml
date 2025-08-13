@@ -7,13 +7,13 @@
     <language>en</language>
 
     <item>
-      <title>Version 1.0.1</title>
+      <title>Version 1.0.2</title>
       <sparkle:releaseNotesLink>https://noxhubkeys.github.io/NOX/release-notes.html</sparkle:releaseNotesLink>
       <pubDate>Wed, 13 Aug 2025 12:00:00 +0000</pubDate>
       <enclosure 
         url="https://github.com/noxhubkeys/NOX/releases/download/NOX/NOX-Installer.exe"
-        sparkle:version="101"
-        sparkle:shortVersionString="1.0.1"
+        sparkle:version="102"
+        sparkle:shortVersionString="1.0.2"
         length="12345678"
         type="application/octet-stream"/>
     </item>
