@@ -8,7 +8,7 @@
 
     <item>
       <title>Version 1.0.21</title>
-      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/noxhubkeys/NOX/refs/heads/main/changelogs/v1.0.2</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/noxhubkeys/NOX/refs/heads/main/changelogs/v1.0.21</sparkle:releaseNotesLink>
       <pubDate>Wed, 13 Aug 2025 12:00:00 +0000</pubDate>
       <enclosure 
         url="https://github.com/noxhubkeys/NOX/releases/download/NOX/NOX-Installer.exe"
