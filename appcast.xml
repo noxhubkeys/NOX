@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>NOX Updates</title>
-    <link>https://noxhubkeys.github.io/NOX/appcast.xml</link>
+    <link>https://raw.githubusercontent.com/noxhubkeys/NOX/main/appcast.xml</link>
     <description>Update feed for NOX application</description>
     <language>en</language>
 
     <item>
       <title>Version 1.0.2</title>
-      <sparkle:releaseNotesLink>https://noxhubkeys.github.io/NOX/release-notes.html</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/noxhubkeys/NOX/refs/heads/main/changelogs/v1.0.2</sparkle:releaseNotesLink>
       <pubDate>Wed, 13 Aug 2025 12:00:00 +0000</pubDate>
       <enclosure 
         url="https://github.com/noxhubkeys/NOX/releases/download/NOX/NOX-Installer.exe"
