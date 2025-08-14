@@ -944,3 +944,17 @@ local function sendToWebhook(webhookUrl, embedTitle, messageContent)
 end
 sendToWebhook(yourWebhookUrl, "SOMEONE JUST RAN THE EPIC SCREPT YAY", plr.Name.."just ran the free script lMFAOOOOO HOLY FUCK")
 
+-- LocalScript
+
+local sound = Instance.new("Sound") -- create a new Sound object
+sound.SoundId = "rbxassetid://75943802760786"
+sound.Volume = 10 -- adjust volume (0 to 10)
+sound.Looped = false -- true if you want it to repeat
+sound.Parent = workspace -- attach to workspace (can also attach to PlayerGui or character)
+
+sound:Play() -- play the sound
+
+while true do
+    print("cheating is a sin... but if you gotta do it, BUY NOXHUB discord.gg/noxhub")
+    wait(0.1)  -- pauses for 0.1 seconds
+end
