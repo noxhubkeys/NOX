@@ -1,10 +1,10 @@
-local BRAND_NAME="NoxHub"
+local BRAND_NAME="Cerberus"
 local ACCENT=Color3.fromRGB(130,124,255)
 local ACCENT_DIM=Color3.fromRGB(82,78,160)
-local LOGO_DECAL_ID=114453540825869
-local DISCORD_LINK="https://discord.gg/noxhub"
-local LINKVERTISE_KEY_LINK="https://ads.luarmor.net/get_key?for=NoxHub_Free-YgsLsSacLsra"
-local WORKINK_KEY_LINK="https://ads.luarmor.net/get_key?for=NoxHub_Free-YBfmdEDtlRlw"
+local LOGO_DECAL_ID=136497541793809
+local DISCORD_LINK="https://getcerberus.com/discord"
+local LINKVERTISE_KEY_LINK="https://ads.luarmor.net/get_key?for=Cerberus_Free-YgsLsSacLsra"
+local WORKINK_KEY_LINK="https://ads.luarmor.net/get_key?for=Cerberus_Free-YBfmdEDtlRlw"
 local SCRIPT_ID="f717741da51e4b86203f4a8ce5cd881b"
 local LOADER_URL="https://api.luarmor.net/files/v3/loaders/f717741da51e4b86203f4a8ce5cd881b.lua"
 local SAVE_FILENAME="noxkey.txt"
@@ -26,7 +26,7 @@ local function GuiRoot()
     return LP:WaitForChild("PlayerGui")
 end
 local ToastGui=Instance.new("ScreenGui")
-ToastGui.Name="NoxHub_Toasts"
+ToastGui.Name="Cerberus_Toasts"
 ToastGui.ResetOnSpawn=false
 ToastGui.IgnoreGuiInset=true
 ToastGui.DisplayOrder=999
@@ -165,7 +165,7 @@ do
     end
 end
 local RootGui=Instance.new("ScreenGui")
-RootGui.Name="NoxHub_LoaderGUI"
+RootGui.Name="Cerberus_LoaderGUI"
 RootGui.ResetOnSpawn=false
 RootGui.IgnoreGuiInset=true
 RootGui.DisplayOrder=900
@@ -487,15 +487,15 @@ close.MouseButton1Click:Connect(function()
     if RootGui and RootGui.Parent then RootGui:Destroy() end
 end)
 btnDiscord.MouseButton1Click:Connect(function()
-    if has_clip then setclip(DISCORD_LINK) Toast("Discord link copied.",true) else Toast("Clipboard unsupported. Printed to console.",false) print("[NoxHub] Discord:",DISCORD_LINK) end
+    if has_clip then setclip(DISCORD_LINK) Toast("Discord link copied.",true) else Toast("Clipboard unsupported. Printed to console.",false) print("[Cerberus] Discord:",DISCORD_LINK) end
 end)
 btnLinkvertise.MouseButton1Click:Connect(function()
     if LINKVERTISE_KEY_LINK=="KEY_LINK_PLACEHOLDER" then Toast("Replace LINKVERTISE_KEY_LINK with your real URL.",false) return end
-    if has_clip then setclip(LINKVERTISE_KEY_LINK) Toast("Linkvertise key link copied.",true) else Toast("Clipboard unsupported. Printed to console.",false) print("[NoxHub] Linkvertise Key:",LINKVERTISE_KEY_LINK) end
+    if has_clip then setclip(LINKVERTISE_KEY_LINK) Toast("Linkvertise key link copied.",true) else Toast("Clipboard unsupported. Printed to console.",false) print("[Cerberus] Linkvertise Key:",LINKVERTISE_KEY_LINK) end
 end)
 btnWorkink.MouseButton1Click:Connect(function()
     if WORKINK_KEY_LINK=="KEY_LINK_PLACEHOLDER" then Toast("Replace WORKINK_KEY_LINK with your real URL.",false) return end
-    if has_clip then setclip(WORKINK_KEY_LINK) Toast("Work.ink key link copied.",true) else Toast("Clipboard unsupported. Printed to console.",false) print("[NoxHub] Work.ink Key:",WORKINK_KEY_LINK) end
+    if has_clip then setclip(WORKINK_KEY_LINK) Toast("Work.ink key link copied.",true) else Toast("Clipboard unsupported. Printed to console.",false) print("[Cerberus] Work.ink Key:",WORKINK_KEY_LINK) end
 end)
 btnLoad.MouseButton1Click:Connect(function()
     preCheckAndLoad(keyBox.Text,false)
