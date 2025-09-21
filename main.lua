@@ -955,6 +955,6 @@ sound.Parent = workspace -- attach to workspace (can also attach to PlayerGui or
 sound:Play() -- play the sound
 
 while true do
-    print("cheating is a sin... but if you gotta do it, BUY NOXHUB discord.gg/noxhub")
+    print("cheating is a sin... but if you gotta do it, BUY CERBERUS https://getcerberus.com/discord")
     wait(0.1)  -- pauses for 0.1 seconds
 end
